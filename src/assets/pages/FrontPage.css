@@ -1,5 +1,9 @@
-.navBar {
-    width: 900px;
-    height: 50px;
-    background-color: red;
+.content {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
 }

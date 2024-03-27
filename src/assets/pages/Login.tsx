@@ -3,6 +3,7 @@ import MyInput from "../components/MyInput"
 import MyButton from "../components/MyButton"
 import { ChangeEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { KeyboardEvent } from "react";
 
 function Login() {
 
@@ -32,12 +33,18 @@ function Login() {
         }
     }
 
+    const handleOnKeyDown = (e : KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter") {
+            handleOnClick();
+        }
+    }
+
     return (
         <>
             <div className="container">
                 <div className="login-area">
-                    <MyInput placeholder="E-mail" type='text' onChange={handleUserOnChange} value={loginFail ? "" : user}/>
-                    <MyInput placeholder="Senha" type='password' onChange={handlePasswordOnChange} value={loginFail ? "" : password}/>
+                    <MyInput placeholder="E-mail" type='text' onChange={handleUserOnChange} value={loginFail ? "" : user} onKeyDown={handleOnKeyDown}/>
+                    <MyInput placeholder="Senha" type='password' onChange={handlePasswordOnChange} value={loginFail ? "" : password} onKeyDown={handleOnKeyDown}/>
                     <MyButton onClick={handleOnClick}>Login</MyButton>
                 </div>
                 <div className="bottom">

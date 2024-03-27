@@ -3,11 +3,8 @@ import "./FrontPage.css";
 function FrontPage() {
     return (
         <>
-            <div className="container">
-                <nav className="navBar"></nav>
-                <div className="content">
-
-                </div>
+            <div className="content">
+                <h1>FrontPage</h1>
             </div>
         </>
     )
