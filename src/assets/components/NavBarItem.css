@@ -1,18 +1,16 @@
-.button {
+.nav-item {
     border: none;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 7px;
     background-color: rgb(94, 1, 94);
-    margin-top: 6px;
+    margin-bottom: 3px;
     color: white;
     transition: 0.3s;
     cursor: pointer;
     font-weight: 900;
 }
 
-.button:hover {
+.nav-item:hover {
     background-color: rgb(187, 0, 187);
     color: black;
     transition: 0.3s;
-    scale: 1.07;
 }

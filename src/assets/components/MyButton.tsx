@@ -9,7 +9,7 @@ interface Props {
 function MyButton({children, onClick}: Props) {
     return (
         <>
-            <button onClick={onClick}>{children}</button>
+            <button className="button" onClick={onClick}>{children}</button>
         </>
     );
 };

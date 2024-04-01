@@ -2,8 +2,28 @@
     height: 100vh;
     width: 100vw;
     background-color: white;
+    color: black;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
 }
 
 h1 {
     margin: 0;
+}
+
+.side-bar {
+    left: 0;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(117, 0, 117);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }

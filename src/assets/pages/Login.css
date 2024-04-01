@@ -21,10 +21,10 @@
     bottom: 0;
 }
 
-h1 {
+.bottom h1 {
     color: rgb(252, 221, 255);
 }
 
-h3 {
+.bottom h3 {
     color: rgb(252, 221, 255);
 }
