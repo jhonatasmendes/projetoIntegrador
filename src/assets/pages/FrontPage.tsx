@@ -1,5 +1,6 @@
 import NavBarItem from "../components/NavBarItem";
 import "./FrontPage.css";
+import Main from "./sub-pages/Main";
 
 function FrontPage() {
     return (
@@ -9,9 +10,8 @@ function FrontPage() {
                     <NavBarItem>1</NavBarItem>
                     <NavBarItem>2</NavBarItem>
                 </div>
-                <div className="main">
-                    <h1>FrontPage</h1>
-                </div>
+                
+                <Main/>
             </div>
         </>
     )
