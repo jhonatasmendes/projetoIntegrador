@@ -1,16 +1,14 @@
 .nav-item {
     border: none;
     padding: 7px;
-    background-color: rgb(94, 1, 94);
+    background-color: inherit;
     margin-bottom: 3px;
     color: white;
-    transition: 0.3s;
     cursor: pointer;
     font-weight: 900;
 }
 
 .nav-item:hover {
-    background-color: rgb(187, 0, 187);
+    background-color: inherit;
     color: black;
-    transition: 0.3s;
 }
