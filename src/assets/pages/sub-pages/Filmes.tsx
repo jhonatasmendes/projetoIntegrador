@@ -1,8 +1,10 @@
+import FilmItem from "../../components/FIlmItem";
+
 function Filmes() {
     return(
         <>
             <div className="filmes">
-                <div className="filme1"></div>
+                <FilmItem/>
             </div>
         </>
     );
