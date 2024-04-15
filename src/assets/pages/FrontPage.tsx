@@ -7,6 +7,10 @@ import Filmes from "./sub-pages/Filmes";
 function FrontPage() {
     const navigate = useNavigate();
 
+    const main = () => {
+        navigate("")
+    }
+
     const films = () => {
         navigate("films")
     }
@@ -15,6 +19,7 @@ function FrontPage() {
         <>
             <div className="content">
                 <div className="side-bar">
+                    <NavBarItem onClick={main}>Main</NavBarItem>
                     <a href="https://ccnew.online/"><NavBarItem>Painel Trend</NavBarItem></a>
                     <a href="https://ccnew.online/"><NavBarItem>Painel GP</NavBarItem></a>
                     <a href="https://infinityplay.qpanel.top/#/sign-in"><NavBarItem>Painel TF</NavBarItem></a>
