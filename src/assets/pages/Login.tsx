@@ -4,7 +4,6 @@ import MyButton from "../components/MyButton"
 import { ChangeEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { KeyboardEvent } from "react";
-
 function Login() {
 
     const [user, setUser] = useState("");
@@ -22,6 +21,10 @@ function Login() {
     };
 
     const handleOnClick = () => {
+        
+        if (user === "mendes" && password === "1243") {
+            navigate("/PainelADM");
+        }
         if (user === "jonas" && password === "1243") {
             navigate("/front-page");
         } else {
@@ -43,7 +46,7 @@ function Login() {
         <>
             <div className="container">
                 <div className="login-area">
-                    <MyInput placeholder="E-mail" type='text' onChange={handleUserOnChange} value={loginFail ? "" : user} onKeyDown={handleOnKeyDown}/>
+                    <MyInput placeholder="Usuario" type='text' onChange={handleUserOnChange} value={loginFail ? "" : user} onKeyDown={handleOnKeyDown}/>
                     <MyInput placeholder="Senha" type='password' onChange={handlePasswordOnChange} value={loginFail ? "" : password} onKeyDown={handleOnKeyDown}/>
                     <MyButton onClick={handleOnClick}>Login</MyButton>
                 </div>

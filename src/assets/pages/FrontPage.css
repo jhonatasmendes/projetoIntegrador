@@ -1,7 +1,7 @@
 .content {
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-image:  url(https://th.bing.com/th/id/R.38d8ad24f473c218c2104b86d414a0d2?rik=kvD%2faN87EBVT5A&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f39400000%2fthor-thor-39486800-1600-800.jpg&ehk=rPGgTmgK7bKqQJRyJoqRQODSDTjm%2bU0im06ZT%2fRwnr0%3d&risl=&pid=ImgRaw&r=0);
     color: black;
     display: flex;
 }
