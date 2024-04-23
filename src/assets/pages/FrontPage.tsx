@@ -19,10 +19,11 @@ function FrontPage() {
         <>
             <div className="content">
                 <div className="side-bar">
-                <a href="https://drive.google.com/drive/u/8/folders/10hQxcG_ongsDND56nKfx4dEJnheYKFI9"><NavBarItem>APKS</NavBarItem></a>
-
-                    <NavBarItem onClick={main}>Séries</NavBarItem>
-                    <NavBarItem onClick={films}>Filmes</NavBarItem>
+                <a href="https://paineltftv.projetojmmidias.workers.dev/0:/Canais/"><NavBarItem>Canais</NavBarItem></a>
+                <a href="https://paineltftv.projetojmmidias.workers.dev/0:/Filmes/"><NavBarItem>Filmes</NavBarItem></a>
+                <a href="https://paineltftv.projetojmmidias.workers.dev/0:/S%C3%A9rie/"><NavBarItem>Séries</NavBarItem></a>
+                <a href="https://paineltftv.projetojmmidias.workers.dev/0:/Filmes/"><NavBarItem>Jogos</NavBarItem></a>
+                <a href="https://drive.google.com/drive/u/8/folders/10hQxcG_ongsDND56nKfx4dEJnheYKFI9"><NavBarItem>APK</NavBarItem></a>
                 </div>
                 
                 <Routes>
