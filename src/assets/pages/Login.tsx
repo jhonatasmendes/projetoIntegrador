@@ -24,8 +24,7 @@ function Login() {
         
         if (user === "mendes" && password === "1243") {
             navigate("/PainelADM");
-        }
-        if (user === "jonas" && password === "1243") {
+        } else if (user === "jonas" && password === "1243") {
             navigate("/front-page");
         } else {
             setLoginFail(true);
