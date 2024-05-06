@@ -17,7 +17,7 @@ function FrontPage() {
                     <a href="https://ccnew.online/"><NavBarItem>Painel GP</NavBarItem></a>
                     <a href="https://lbtf.online/xtream/"><NavBarItem>Painel M & J</NavBarItem></a>
                     <a href="https://infinityplay.qpanel.top/#/sign-in"><NavBarItem>Painel Infinity</NavBarItem></a>
-                    <a href="https://drive.google.com/drive/u/8/folders/10hQxcG_ongsDND56nKfx4dEJnheYKFI9"><NavBarItem>APKS</NavBarItem></a>
+                    <a href="https://paineltftv.projetojmmidias.workers.dev/0:/APK/"><NavBarItem>APKS</NavBarItem></a>
 
 
                 </div>
